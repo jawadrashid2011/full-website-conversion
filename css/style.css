@@ -1,0 +1,59 @@
+#main-container {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#div-inner-opacity {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #6296FF;
+    text-underline-position: under;
+}
+
+#main-heading {
+    text-transform: uppercase;
+}
+
+#main-heading h1 {
+    font-size: 4vw;
+}
+
+.btn-get-started {
+    font-weight: 600;
+}
+
+.btn-learn-more {
+    background: #6296FF;
+}
+
+
+@media (max-width: 767px) {
+    #main-small-text {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 576px) {
+    #main-small-text {
+        font-size: 3vw;
+    }
+    
+    #logo h2 {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-group-sm>.btn, .btn-sm {
+        font-size: 3vw !important;
+    }
+}
